@@ -1,0 +1,182 @@
+.dashboard-content {
+  position: absolute;
+  right: 0;
+  width: calc(100% - 316px);
+  height: auto;
+}
+main {
+  background-color: white;
+  margin: 5px 10px;
+  border-radius: 16px;
+  padding: 16px 15px 16px 15px;
+}
+/*styling the cards*/
+.cont {
+  font-weight: 700;
+  margin: 0 15px;
+}
+.flag {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.item:first-child {
+  font-size: 16px;
+}
+.item:nth-child(2) {
+  font-size: 14px;
+}
+.cash {
+  font-weight: 700;
+  font-size: 28px;
+}
+.country-display1 {
+  background-color: #fff6e6;
+  border: 1px solid #f1f5f9;
+  border-radius: 16px;
+}
+.country-display2 {
+  background-color: #fbf1f0;
+  border: 1px solid #f1f5f9;
+  border-radius: 16px;
+}
+.country-display3 {
+  background-color: #ddecef;
+  border: 1px solid #f1f5f9;
+  border-radius: 16px;
+}
+@media screen and (max-width: 991px) {
+  .country-display1, .country-display2, .country-display3{
+    margin-bottom: 10px;
+  }
+}
+.account-cards {
+  margin-top: 7px;
+}
+/*style quick links*/
+.quick-links {
+  margin-top: 30px;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.links-intro h4 {
+  font-size: 21px;
+  font-weight: 700;
+}
+.link-intro {
+  font-size: 16px;
+  font-weight: 400;
+  color: #94a3b8;
+}
+.link-info {
+  width: 120px;
+  height: 131px;
+  border: 1px solid #f1f5f9;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+}
+.link-info .link-text {
+  text-align: center;
+  font-size: 14px;
+  margin: 9px 0;
+}
+.link-cards {
+  margin-top: 30px;
+}
+.link-icon {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 32px;
+  height: 32px;
+  border-radius: 200px;
+}
+.link-info:first-child .link-icon {
+  background-color: #f97316;
+}
+.link-info:nth-child(2) .link-icon {
+  background-color: #005061;
+}
+.link-info:nth-child(3) .link-icon {
+  background-color: #f59e0b;
+}
+.link-info:nth-child(4) .link-icon {
+  background-color: #5eead4;
+}
+.link-info:nth-child(5) .link-icon {
+  background-color: #9333ea;
+}
+.link-info:nth-child(6) .link-icon {
+  background-color: #ffcb00;
+}
+.link-info:nth-child(7) .link-icon {
+  background-color: #f43f5e;
+}
+.link-icon i {
+  color: white;
+}
+.roww {
+  display: flex;
+  gap: 5px;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+/*chart section starts here*/
+
+.chart-section {
+  margin: 30px 0;
+}
+.activity {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 24px 0;
+}
+.activity .activity-month {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.act-txt {
+  font-weight: bold;
+  font-size: 21px;
+}
+.month span {
+  font-size: 16px;
+  margin-right: 4px;
+}
+.transaction a {
+  font-weight: bold;
+  font-size: 16px;
+}
+.t-display{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+.t-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.t-cover{
+  display: flex;
+  align-items: center;
+}
+.t-img{
+  margin: 0 12px;
+}
+.pay-d{
+  font-size: 14px;
+}
+.pay-amt{
+  font-size: 16px;
+  font-weight: bold;
+}

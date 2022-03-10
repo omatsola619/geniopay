@@ -1,0 +1,94 @@
+.topbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 15px 10px;
+  background-color: #f8fcfc;
+}
+.search {
+  position: relative;
+  display: block;
+  align-items: center;
+}
+.search input {
+  padding-left: 30px;
+  border: 1px solid #aac0c5;
+  color: grey;
+  outline: none;
+  background-color: #f8fcfc;
+  border-radius: 16px;
+  height: 40px;
+  font-size: 12px;
+  width: 200px;
+}
+.icon {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  font-size: 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: lighter;
+  color: #55676b;
+}
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.plant {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.topbar .greet {
+  font-weight: bolder;
+  font-size: 28px;
+}
+.dp {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+}
+.user {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 10px;
+}
+.user .name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.name .statuses {
+  font-size: 12px;
+  color: #22c55e;
+}
+.name .me {
+  font-size: 16px;
+  color: black;
+  font-weight: bolder;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.profile-text {
+  font-size: 12px;
+}
+.profile-intro {
+  font-size: 15px;
+  font-weight: bold;
+}
+.down {
+  color: black;
+}

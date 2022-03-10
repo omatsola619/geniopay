@@ -1,0 +1,252 @@
+.wallet-content {
+  position: absolute;
+  right: 0;
+  width: calc(100% - 316px);
+  height: auto;
+}
+.wallet-main {
+  background-color: transparent;
+}
+.info-action {
+  background-color: #017189;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.info-action i {
+  margin-right: 5px;
+}
+.info-title {
+  font-size: 21px;
+  font-weight: 600;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wallet-main-content {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  margin-top: 40px;
+}
+@media screen and (max-width: 1048px) {
+  .wallet-main-content {
+    flex-wrap: wrap;
+  }
+}
+.wallet-left {
+  background-color: white;
+  width: 100%;
+  padding: 8px;
+}
+
+.search {
+  position: relative;
+  display: block;
+  align-items: center;
+}
+.search input {
+  padding-left: 30px;
+  border: 1px solid #aac0c5;
+  color: grey;
+  outline: none;
+  background-color: #f8fcfc;
+  border-radius: 16px;
+  height: 40px;
+  font-size: 12px;
+  width: 304px;
+}
+.icon {
+  position: absolute;
+  top: 0;
+  left: 8px;
+  font-size: 15px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: lighter;
+  color: #55676b;
+}
+.wallet-search {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.all i {
+  margin-left: 4px;
+}
+.all {
+  font-size: 16px;
+  font-weight: 700;
+}
+.status {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 36px;
+  margin-right: 36px;
+}
+.status div {
+  font-size: 16px;
+}
+.active {
+  border-bottom: 2px solid #017189;
+}
+.country-info {
+  margin-top: 24px;
+}
+.flag {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cont {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+  margin: 16px 0;
+}
+.cont:first-child {
+  background-color: #eef7f9;
+}
+/*styling right side*/
+.wallet-right {
+  background-color: white;
+  width: 100%;
+  padding: 16px 50px;
+  border-radius: 16px;
+}
+.funds {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  border: 1px solid #f3f4f6;
+  padding: 24px;
+  border-radius: 16px;
+  margin-bottom: 24px;
+}
+.account {
+  display: flex;
+  flex-direction: column;
+}
+.act {
+  color: #22c55e;
+}
+.act i {
+  font-size: 8px;
+  margin-right: 5px;
+}
+.act span {
+  font-size: 12px;
+}
+.wal1 {
+  font-size: 16px;
+}
+.wal2 {
+  font-size: 16px;
+  font-weight: 700;
+}
+.funds-amt {
+  font-weight: 800;
+  font-size: 40px;
+}
+.calc-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 14px;
+}
+.calc-info div span:first-child {
+  margin-right: 10px;
+}
+.calc-info:first-child {
+  margin-bottom: 15px;
+}
+.bbt {
+  border: 2px solid #017189;
+  color: #017189;
+  flex-grow: 1;
+}
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.more a{
+  font-size: 16px;
+  margin-top: 15px !important;
+  color: #017189;
+}
+.more a i{
+  margin-left: 10px;
+}
+.more{
+  margin-top: 10px;
+}
+.filter{
+  font-size: 16px;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  display: flex;
+  justify-content: flex-end;
+  color: #017189;
+}
+.filter-text i{
+  margin-left: 10px;
+}
+.status2 {
+  margin-top: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 36px;
+  gap: 30px;
+}
+.status2 div {
+  font-size: 16px;
+}
+/*styling chart section*/
+.t-display{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 30px;
+}
+.t-info{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.t-cover{
+  display: flex;
+  align-items: center;
+}
+.t-img{
+  margin: 0 12px;
+}
+.pay-d{
+  font-size: 14px;
+}
+.pay-amt{
+  font-size: 16px;
+  font-weight: bold;
+}
+.ikon{
+  width: 16px;
+  height: 16px;
+}
+.bbt span{
+  margin-left: 5px;
+}

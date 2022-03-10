@@ -1,0 +1,166 @@
+.sidebar {
+  /* flex: 0.2; */
+  position: fixed;
+  width: 316px;
+  height: 100%;
+  background-color: #017189;
+  overflow-x: hidden !important;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+  padding-bottom: 20px;
+}
+/*styling sidebar scrollbar*/
+::-webkit-scrollbar{
+  width: 5px;
+  height: 6px;
+  padding-right: 2px;
+}
+::-webkit-scrollbar-thumb{
+  background-color: white;
+  border-radius: 10px;
+}
+/*scrollbar styling ends here*/
+.logo {
+  width: 188px;
+  margin-top: 10px;
+}
+.money-card {
+  margin-top: 32px;
+  width: 80%;
+  background-color: #2b899d;
+}
+.icon1 {
+  width: 12px;
+  height: 12px;
+}
+.star {
+  width: 12px;
+  height: 12px;
+  color: #f59e0b;
+}
+.money {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-cover {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+}
+.money .left {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.point {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+}
+.balance div {
+  color: white;
+  font-size: 14px;
+}
+.balance .sec {
+  font-weight: bold;
+  font-size: 16px;
+}
+.rule {
+  background-color: white;
+}
+.right i {
+  color: white;
+  width: 12px;
+  height: 12px;
+}
+.line {
+  width: 100%;
+  background-color: #eafbff;
+  height: 1px;
+  display: block;
+  margin: 8px auto;
+}
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+.buttons button {
+  width: 80px;
+}
+.buttons .btn-one {
+  background-color: #fda4af;
+  color: white;
+  font-size: 14px;
+}
+.buttons .btn-two {
+  background-color: white;
+  color: #2b899d;
+  font-size: 14px;
+}
+i.eye {
+  width: 3px;
+  height: 3px;
+}
+/*styling the navigation menu*/
+.navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 72px;
+  width: 80%;
+}
+.navigation a {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 30px;
+  padding: 10px;
+}
+.navigation a i {
+  width: 20px;
+  text-decoration: none;
+}
+.navigation .active {
+  background-color: white;
+  color: #017189;
+  border-radius: 5px;
+}
+.navigation a .txt {
+  font-size: 14px;
+}
+
+/*refer and earn styling*/
+.refer {
+  margin-top: 60px;
+  width: 80%;
+  background-color: #fff5e9;
+}
+.refer-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 5px;
+}
+.sound {
+  width: 50px;
+}
+.refer-text h4 {
+  font-size: 16px;
+  font-weight: bolder;
+}
+.refer-text .info {
+  font-size: 14px;
+}
+.inv {
+  font-size: 14px;
+  background-color: #017189;
+  color: white;
+}
